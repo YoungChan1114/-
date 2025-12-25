@@ -74,7 +74,7 @@ def show_inventory():
 def search_item():
     """執行二分搜尋法查找裝備。"""
     global INVENTORY, IS_SORTED
-    print("\n🔍 [裝備檢索系統]")
+    print("\n [裝備檢索系統]")
     if not IS_SORTED:
         print(" 錯誤：二分搜尋法 (Binary Search) 要求資料必須先排序！請先去背包整理裝備 (選項 1)。")
         return
@@ -273,4 +273,5 @@ def main_game():
         time.sleep(1)
 
 if __name__ == "__main__":
+
     main_game()
